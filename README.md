@@ -50,10 +50,12 @@ while True:
 ```
 # OUTPUT :
 # CLIENT OUTPUT :
-![Screenshot (48)](https://github.com/ArpanBardhan/EX-3/assets/119405037/2a3c3c0c-d923-4867-8d94-9e5cbd07cec5)
+
+![3a](https://github.com/JoshuaSamuel7/19CS406-EX-3/assets/118343296/4ffc3a83-bbc8-462c-a841-67a613cb1ddd)
 
 # SERVER OUTPUT :
-![Screenshot (49)](https://github.com/ArpanBardhan/EX-3/assets/119405037/eb6a596f-c5f1-4730-89d7-d3a81983a605)
+![3b](https://github.com/JoshuaSamuel7/19CS406-EX-3/assets/118343296/b72cba5f-a816-41f9-9609-7052713589eb)
+
 
 
 # RESULT:
