@@ -1,11 +1,11 @@
 # EX-3 IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
 
-# DATE : 20/03/2023
+## DATE : 22/03/2023
 
-# AIM :
+## AIM :
 To write a python program to perform sliding window protocol
 
-# ALGORITHM :
+## ALGORITHM :
 ```
 1. Start the program.
 2. Get the frame size from the user
@@ -15,9 +15,9 @@ To write a python program to perform sliding window protocol
 will send NACKsignal to client.
 6. Stop the program
 ```
-# PROGRAM :
-# CLIENT PROGRAM :
-```
+## PROGRAM :
+## CLIENT PROGRAM :
+```PYTHON 3
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
@@ -38,8 +38,8 @@ while True:
  i+=s
 
 ```
-# SERVER PROGRAM :
-```
+## SERVER PROGRAM :
+```PYTHON 3
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
@@ -48,16 +48,16 @@ while True:
  s.send("acknowledgement recived from the server".encode())
 
 ```
-# OUTPUT :
-# CLIENT OUTPUT :
+## OUTPUT :
+## CLIENT OUTPUT :
 
 ![3a](https://github.com/JoshuaSamuel7/19CS406-EX-3/assets/118343296/4ffc3a83-bbc8-462c-a841-67a613cb1ddd)
 
-# SERVER OUTPUT :
+## SERVER OUTPUT :
 ![3b](https://github.com/JoshuaSamuel7/19CS406-EX-3/assets/118343296/b72cba5f-a816-41f9-9609-7052713589eb)
 
 
 
-# RESULT:
+## RESULT:
 Thus, python program to perform sliding window protocol was successfully executed.
 
